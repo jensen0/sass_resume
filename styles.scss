@@ -1,0 +1,69 @@
+@use 'colors';
+
+$padding: 50px 100px;
+
+@mixin heading-style {
+    text-decoration: underline;
+}
+
+
+.name {
+    padding: $padding;
+}
+.full {
+    display: flex;
+    // justify-content: space-between;
+}
+#laura {
+    margin: 0;
+    padding: 0;
+}
+#marketing {
+    margin: 0;
+}
+.heading {
+    background-image: url('skyline.jpg');
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    // margin: 50px;
+}
+.profile {
+    background-image: url('pic.jpg');
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+.side_section {
+    background-color: lightgrey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    @extend %font_color;
+}
+.ssp {
+    padding: $padding;
+    text-align: left;
+}
+.bottom_sec {
+    padding: $padding;
+    @extend %font_color;
+}
+.left_sec {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+.bottom_sec {
+    width: 50%;
+}
+h3 {
+    @include heading-style();
+}

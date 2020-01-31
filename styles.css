@@ -1,0 +1,74 @@
+.side_section, .bottom_sec {
+  color: #525252;
+}
+
+.name {
+  padding: 50px 100px;
+}
+
+.full {
+  display: flex;
+}
+
+#laura {
+  margin: 0;
+  padding: 0;
+}
+
+#marketing {
+  margin: 0;
+}
+
+.heading {
+  background-image: url("skyline.jpg");
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+}
+
+.profile {
+  background-image: url("pic.jpg");
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  border-radius: 50%;
+  margin-left: 150px;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana;
+}
+
+.side_section {
+  background-color: lightgrey;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 35%;
+}
+
+.ssp {
+  padding: 50px 100px;
+  text-align: left;
+}
+
+.bottom_sec {
+  padding: 50px 100px;
+}
+
+.left_sec {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.bottom_sec {
+  width: 50%;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */
